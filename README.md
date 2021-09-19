@@ -1,13 +1,18 @@
-# mann-backend-graphql
-to get revert back version using requirements.txt and git
+# mann-backend
+
 
 # to-do
-# remove the cyclic dependency from signaks --done
-# include the permissions in cred ?? only owner edit with minimal code
+- request and response from android application
+- draft post/ published post to included
 
-# authentication is completed for now 
+# to-do completed
+- removed the cyclic dependency from signals.
+- included the permissions in cred ?? only owner edit with minimal code
+- authentication-done
+- 
 
-
+# sample mutation query
+```
 mutation{
   relayCreatePost(input:{
     title:"Testing Authorization and Authentiation",
@@ -24,3 +29,4 @@ mutation{
     }
   }
 }
+```
